@@ -16,7 +16,15 @@ escreval ("Olá, tudo bem?")
 escreval ("Digite aqui seu nome:")
 leia (nome)
 
-escreval ("Bom dia,"
-leia (nome)
+escreva ("Bom dia, ")
+escreval (nome)
+escreval ("__________")
 
+escreval("Digite um número")
+leia (num1)
+
+escreval ("Digite outro número")
+leia (num2)
+
+escreva ("igual a =", num1 + num2)
 Fimalgoritmo
