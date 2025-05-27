@@ -1,0 +1,37 @@
+.pai{
+    width: 98%;
+    padding: 20px;
+    background-color: purple;
+    /* display: maneira que mostra os elementos */
+    /* block (blocos): um em cima do outro e da esqueda para a direita */
+    /* flex (flexível): linhas e colunas */
+    display: flex;
+    /* flex-direction: direção se é coluna ou linha */
+    flex-direction: column;
+    /* justify-content: alinhament do eixo x */
+    justify-content: space-around; 
+    /* LEFT = START; RIGTH = END */
+    /* align-items: alinhamento do eixo y */
+    align-items: center;
+    /* gap: espaçamento entre elementos */
+    gap: 20px;
+    /* obs: o alinhamento só acontece mediante a largura/altura */
+}
+
+
+.filho{
+    width: 100px;
+    height: 100px;
+}
+
+#f1{
+    background-color: antiquewhite;
+}
+
+#f2{
+    background-color: aqua;
+}
+
+#f3{
+    background-color: blue;
+}
