@@ -1,41 +1,56 @@
 *{
-    width: 99%;
+    
     margin: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-   
+    justify-content: center; 
+}
+
+.header{
+    background-color: #e8e6e6;
 }
 
 .pai1{
     width: 100%;
-    background-color: aqua;
     display: flex;
     flex-direction: column;    
 }
 
 .filhoHome{
-    background-color: purple;
     flex-direction: row;
     justify-content: flex-end;
 
 }
 
 .filhoImagem{
-    
-    background-color: pink;
     flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    height: 50%;
+}
+
+#peixeGrande{
+    width: 30%;
+    height: 500px;
+}
+
+#imagemPeixe{
+    width: 70%;
 }
 
 .pai2{
-    background-color: antiquewhite;
+    background-color: #e8e6e6;
     flex-direction: row;
 }
 
+.mapa{
+    background-color: white;
+}
+
 .footer{
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: black
 }
 
 #footer1{
-    font-style: white;
+    color: white;
 }
