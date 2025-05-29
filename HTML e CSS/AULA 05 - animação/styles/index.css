@@ -1,0 +1,58 @@
+*{  
+    padding: 0%;
+    margin: 0%;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 188, 218);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 50%;
+
+}
+
+@keyframes mudaCor {
+    0%{
+        background-color: rgb(248, 188, 218);
+    }
+    
+    20%{
+        background-color: rgb(250, 153, 202);
+    }
+    40%{
+        background-color: rgb(243, 110, 176);
+    }
+    60%{
+        background-color: rgb(247, 79, 163);
+        margin-left: 10px;
+    }
+    80%{
+        background-color: rgb(250, 48, 149);
+        margin-left: 400px;
+        border-radius: 10%;
+    }
+    100%{
+        background-color: rgb(250, 13, 132);
+    }
+}
+/* kameframe = configura a animação por PORCENTAGEM % (cada etapa) */
+/* animation name = chama a animação */
+/* animation duration = chama a duração da animação */
+/* animation interation count = quantas vezes a animação vai rodar */
+/* animation delay = tempo antes da animação rodar */
+
+
+#c1{
+    /*animation = name duration timing-function delay iteration-count direction fill-mode*/
+    /* animation = mudaCor 3s 1s infinite */
+    animation-name: mudaCor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
