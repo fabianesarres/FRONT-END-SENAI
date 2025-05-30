@@ -3,6 +3,7 @@
     padding: 0%;
 }
 
+
 header{
     width: 100%;
     background-color: antiquewhite;
@@ -11,12 +12,19 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 a{
     color: black;
 }
 
+#logo{
+    width: 60px;
+    border-radius: 50%;    
+}
+
 @keyframes identifier {
     
 }
+

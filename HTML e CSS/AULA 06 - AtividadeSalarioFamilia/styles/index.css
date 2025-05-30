@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    width: 50%;
+    height: 50%;
+}
+
+/* .linha{
+    margin-top: 500px black;
+} */
+
+form{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    margin: 1px black
+}
