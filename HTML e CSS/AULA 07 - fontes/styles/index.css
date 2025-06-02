@@ -1,0 +1,77 @@
+@font-face {
+    font-family:fonte-cream cake;
+    src: url(fonts/fonte-cream_cake/Cream\ Cake\ Bold.otf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h2{
+    font-family:fonte-cream cake;
+    font-size:40px;
+}
+
+header, footer{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(156, 149, 149);
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    background-color: slategrey;
+}
+
+a{
+    color: slategrey;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* GAP = espaçamento entre elementos */
+}
+
+#promocao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+#grupo_Carros{
+    display: flex;
+    margin: 20px 10px;
+    gap: 30px;
+}
+
+.carro{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid rgb(219, 216, 216);
+    border-radius: 5px;
+    box-shadow: rgba(211, 208, 208, 0.397) 5px 5px 10px;
+    background-color: rgb(236, 231, 221);
+}
+
+.carro img{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid none;
+    box-shadow: rgba(70, 70, 70, 0.397) 5px 5px 10px 5px;
+}
