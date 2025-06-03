@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas e Pseudoclasses</title>
+    <link rel="stylesheet" href="styles/all.css">
+</head>
+<body>
+    <section id="tabela">
+        <h3>TABELAS</h3>
+        <!-- D = DADOS; H = HEADING(título); R = ROW(linha); C = COLUNN (coluna)-->
+        <table>
+            <tr>
+                <th>/</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+            </tr>
+
+            <tr>
+                <th>1</th>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+
+            <tr>
+                <th>2</th>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+
+            <tr>
+                <th>3</th>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="pseudo">
+        <input placeholder="Olá" type="text">
+        <div id="caixa">
+            :)
+        </div>
+    </section>
+
+    <section id="tabelaCompleta">
+        <!-- TABLE = puxa a tabela -->
+        <!-- TH - 'table heading', título da tabela -->
+        <!-- TD - 'table data', dados da tabela -->
+        <!-- TR - 'table row', linha de tabela -->
+        <!-- THEAD, TBODY, TFOOT - mesma organização do html padrão, sendo cabeçalho, corpo e rodapé -->
+        <!-- cosplan, rowspan - mesclar colunas ou linhas -->
+        <table>
+            <thead>
+                <tr>
+                    <th>/</th>
+                    <th>NOME MERCADORIA</th>
+                    <th>TIPO</th>
+                    <th>PESO (kg)</th>
+                    <th>VALOR</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Queijo</td>
+                    <td>Mussarela</td>
+                    <td>150g</td>
+                    <td>R$8,99</td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>Queijo</td>
+                    <td>Mussarela</td>
+                    <td>150g</td>
+                    <td>R$8,99</td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>Queijo</td>
+                    <td>Mussarela</td>
+                    <td>150g</td>
+                    <td>R$8,99</td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>Queijo</td>
+                    <td>Mussarela</td>
+                    <td>150g</td>
+                    <td>R$8,99</td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>Queijo</td>
+                    <td>Mussarela</td>
+                    <td>150g</td>
+                    <td>R$8,99</td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>Queijo</td>
+                    <td>Mussarela</td>
+                    <td>150g</td>
+                    <td>R$8,99</td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>Queijo</td>
+                    <td>Mussarela</td>
+                    <td>150g</td>
+                    <td>R$8,99</td>
+                </tr>
+                
+                
+            </tbody>
+
+
+            <tfoot>
+                <tr>
+                    <th colspan="4">SUBTOTAL</th>
+                    <td>R$500,00</td>
+                </tr>
+            </tfoot>
+        </table>
+        <div id="espaco"></div>
+    </section>
+
+    
+</body>
+</html>

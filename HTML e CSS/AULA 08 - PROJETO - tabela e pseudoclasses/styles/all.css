@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: azure;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#receita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+#receita_curry{
+    display: flex;
+    margin: 20px 10px;
+    gap: 30px;
+}
+
+.curry{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid rgb(219, 216, 216);
+    border-radius: 5px;
+    box-shadow: rgba(211, 208, 208, 0.397) 5px 5px 10px;
+    background-color: rgb(236, 231, 221);
+}
+
+.curry img{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid none;
+    box-shadow: rgba(70, 70, 70, 0.397) 5px 5px 10px 5px;
+}
