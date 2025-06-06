@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/landscape.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" href="styles/portrait.css" media="screen and (orientation: portrait)">
+</head>
+<body>
+<!-- HEADER -->
+    <header>
+        <div id="logo"></div>
+        <nav id="navPc">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Pag1</a></li>
+                <li><a href="index.html">Pag2</a></li>
+            </ul>
+        </nav>
+        <button onclick="menuMobile()">
+            <img src="images/images/menuIcon.svg" alt="ícone">
+        </button>
+    </header>
+
+    
+        
+
+<!-- MAIN -->
+    <main>
+            <!-- PICTURE = RESPONSIVIDADE DA IMAGEM -->
+            <!-- SRCSET =  puxar a imagem pelo "SRC" e depois volta e modifica para "SRCSET"-->
+        <picture>
+            <source media="(max-width: 1000px)" srcset="images/images/mulherdancandoMenor.jpg">
+            <img src="images/images/mulherdancando.jpg" alt="">
+        </picture>
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident hic rerum temporibus assumenda laboriosam, officiis esse nesciunt. Culpa quam dolorem, repudiandae aliquid nostrum quisquam consectetur corporis facilis, vitae molestias doloremque!</p>
+    </main>
+
+    <nav id="navMobile">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Pag1</a></li>
+            <li><a href="index.html">Pag2</a></li>
+        </ul>
+    </nav>
+</body>
+
+<script>
+    function menuMobile(){
+        if(navMobile.style.display == "flex"){
+            navMobile.style.display = "none"
+        }else{
+            navMobile.style.display = "flex"
+        }    
+    }
+</script>
+
+</html>

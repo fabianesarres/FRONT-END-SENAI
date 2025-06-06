@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: rgb(72, 94, 165);
+}
+
+main{
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(180, 177, 177);
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#navMobile{
+    display: none;
+}
+
+main img{
+    width: 100%;
+}
+
+/* MEDIA PRINT = UTILIZANDO PARA AMENIZAR A QTDADE DE TINTA NO MOMENTO DA IMPRESSÃO, CASO O USUÁRIO QUEIRA IMPRIMIR AQUELA PÁGINA, EX: SITE DE RECEITA */
+@media print{
+    p{
+        color: green;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+header button{
+    display: none;
+}
+
+
+/* PARA MUDAR A COR NA RESPONSIVIDADE, QUANDO ATINGE O TAMANHO DA TELA 1000PX */
+@media screen and (max-width: 1000px){
+    body{
+        background-color: brown;
+    }
+
+    header button{
+        display: flex;
+    }
+
+    #navMobile{
+        display: flex;
+        width: 100%;
+        background-color: rgb(8, 8, 8);
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        bottom: 0%;
+    }
+
+    #navPc{
+        display: flex;
+    }
+}
+
+
+
+@media screen and (min-width: 1000px){
+    body{
+        background-color: rgb(79, 42, 165);
+    }
+}
