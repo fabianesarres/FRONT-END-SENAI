@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    background-color: greenyellow;
+}
+
+input{
+    transition: 1s!important;
+}
+
+input:focus{
+    transition: 1s!important;
+    background-color: rgb(211, 208, 208)!important;
+}
+
+section{
+    border: 1px solid rgb(211, 208, 208);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(236, 233, 233);
+}
