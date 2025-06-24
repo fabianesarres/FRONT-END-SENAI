@@ -25,11 +25,11 @@ var teste = "Oi";
 teste = "Que legal!";
 console.log(teste);
 
-// escopo local, sobrescreve
-let teste2 = "Olá";
+// escopo local, sobrescreve - (LET = variável TEMPORÁRIA)
+let teste2 = "Olá"; 
 
 
-// escopo global, não sobrescreve
+// escopo global, não sobrescreve - (CONST = variável FIXA)
 const teste3 = ":)";
 // erro ao tentar sobrescrever
 // teste3 = 10;
@@ -46,6 +46,9 @@ confirm("DESEJA BAIXAR NOVAMENTE?");
 
 // prompt(leia) - emite uma mensagem qlq e salva STRING (texto/email/valor)
 prompt("Digite seu nome:")
+
+
+
 
 
 // limpaTela
