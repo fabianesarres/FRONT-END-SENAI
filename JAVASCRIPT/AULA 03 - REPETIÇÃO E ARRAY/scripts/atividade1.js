@@ -1,0 +1,1 @@
+//1 - Faça uma listagem de 6 filmes de sua escolha com array e faça eles serem impressos no html

@@ -1,0 +1,1 @@
+//2 - Fazer a tabuada com repetições recebendo os valores pelos prompt
