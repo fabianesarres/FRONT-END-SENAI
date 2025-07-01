@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: var(--fonte);
+}
+
+
+:root{
+    --pink: rgb(192, 139, 192);
+    --black: rgb(0, 0, 0);
+    --white: white;
+    --bgSite: rgb(134, 213, 236);
+    --fonte: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    background-color: var(--bgSite);
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.exercicios{
+    width: 60%;
+    padding: 10px;
+    background-color: var(--pink);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
+
