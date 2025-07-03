@@ -1,0 +1,14 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --black: var(--black);
+    --white: var(--white);
+    --gray: var(--gray);
+    --green: var(--green);
+    --red: var(--red);
+    --blue: var(--blue);
+}
+
