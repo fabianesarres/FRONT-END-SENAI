@@ -12,3 +12,49 @@
     --blue: var(--blue);
 }
 
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e6b7b7ab;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card h3 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  .card p {
+    font-size: 14px;
+    margin: 4px 0;
+    color: #555;
+  }
+
+  .card h6 {
+    font-size: 13px;
+    margin: 4px 0;
+    color: #888;
+  }
+
+  input{
+    width: 500px;
+    height: 30px
+  }
+
